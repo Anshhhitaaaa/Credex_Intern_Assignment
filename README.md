@@ -1,12 +1,88 @@
-# React + Vite
+Credex Intern Assignment
+A responsive web application developed as part of the Credex internship assignment. Built using React and Vite, the project leverages Tailwind CSS for styling and ESLint for code linting.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Live Demo
+Experience the application live at: credex-intern-assignment.vercel.app
 
-Currently, two official plugins are available:
+🛠️ Tech Stack
+Frontend Framework: React
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Build Tool: Vite
 
-## Expanding the ESLint configuration
+Styling: Tailwind CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Linting: ESLint
+
+Deployment: Vercel
+GitHub Docs
+
+📁 Project Structure
+php
+Copy
+Edit
+Credex_Intern_Assignment/
+├── public/               # Static assets
+├── src/                  # Source code
+│   ├── components/       # Reusable components
+│   ├── pages/            # Page components
+│   └── App.jsx           # Main application component
+├── index.html            # HTML template
+├── package.json          # Project metadata and scripts
+├── tailwind.config.js    # Tailwind CSS configuration
+├── vite.config.js        # Vite configuration
+└── README.md             # Project documentation
+📦 Getting Started
+Prerequisites
+Node.js (v14 or later)
+
+npm or Yarn
+
+Installation
+Clone the repository:
+
+bash
+Copy
+Edit
+git clone https://github.com/Anshhhitaaaa/Credex_Intern_Assignment.git
+cd Credex_Intern_Assignment
+Install dependencies:
+
+Using npm:
+
+bash
+Copy
+Edit
+npm install
+Or using Yarn:
+
+bash
+Copy
+Edit
+yarn install
+Start the development server:
+
+Using npm:
+
+bash
+Copy
+Edit
+npm run dev
+Or using Yarn:
+
+bash
+Copy
+Edit
+yarn dev
+The application will be available at http://localhost:5173/.
+
+🧪 Scripts
+npm run dev / yarn dev: Start the development server.
+
+npm run build / yarn build: Build the application for production.
+
+npm run preview / yarn preview: Preview the production build.
+
+npm run lint / yarn lint: Run ESLint to analyze code for potential issues.
+
+📄 License
+This project is licensed under the MIT License.
